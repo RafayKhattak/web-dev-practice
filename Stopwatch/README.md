@@ -1,6 +1,6 @@
 # Stopwatch
 
-A simple stopwatch web application built with HTML, CSS, and JavaScript.
+A simple stopwatch web application built with HTML, CSS, and JavaScript. Live Demo: https://stopwatch.rafaykhattak.repl.co/
 
 ![Screenshot (31)](https://github.com/RafayKhattak/web-dev-practice/assets/90026724/62529f20-dd82-42ab-81e0-5ba0b42c690c)
 
