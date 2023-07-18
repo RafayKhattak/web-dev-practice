@@ -1,0 +1,141 @@
+/* Global Styles */
+* {
+  font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif; /* Setting the font-family for all elements */
+  color: white; /* Setting the text color for all elements */
+}
+
+/* Body Styles */
+body {
+  background: #8990ec; /* Setting the background color of the body */
+}
+
+/* Wrapper Styles */
+.wrapper {
+  height: 525px; /* Setting the height of the wrapper */
+  width: 360px; /* Setting the width of the wrapper */
+  color: white; /* Setting the text color of the wrapper */
+  background: #272639; /* Setting the background color of the wrapper */
+  border-radius: 1rem; /* Adding border-radius to create rounded corners */
+  padding: 1.2rem; /* Adding padding to the wrapper */
+  margin: 100px auto; /* Setting the margin to center the wrapper horizontally */
+}
+
+/* "Tip Calculator" Heading Styles */
+.wrapper h1 {
+  font-size: 2.4rem; /* Increasing the font size */
+  text-align: center; /* Centering the heading text */
+  margin-bottom: 2rem; /* Adding some bottom margin for spacing */
+}
+
+/* Top Container Styles */
+#topContainer {
+  margin-top: 4rem; /* Adding top margin for spacing */
+}
+
+/* Container Styles */
+.container {
+  margin-top: 1.4rem; /* Adding top margin for spacing between containers */
+}
+
+/* Title Styles */
+.title {
+  font-weight: bold; /* Adding font weight for emphasis */
+  margin-bottom: 0.6rem; /* Adding bottom margin for spacing */
+}
+
+/* Input Container Styles */
+.inputContainer {
+  background: #353959; /* Setting the background color of the input container */
+  border-radius: 1.4rem; /* Adding border-radius to create rounded corners */
+  padding: 0 0.8rem; /* Adding horizontal padding for spacing */
+  display: flex; /* Displaying the input container as a flex container */
+  align-items: center; /* Centering the items vertically */
+}
+
+/* Input Styles */
+#billTotalInput,
+#tipInput {
+  font-size: 1.2rem; /* Setting the font size of the inputs */
+  background: none; /* Removing the background color */
+  border: none; /* Removing the border */
+  outline: none; /* Removing the outline */
+  padding: none; /* Removing padding */
+}
+
+/* Button Container Styles */
+.buttonContainer {
+  background: #8990ec; /* Setting the background color of the button container */
+  display: grid; /* Displaying the button container as a grid container */
+  place-items: center; /* Centering the button container items */
+  width: 1.6rem; /* Setting the width of the button container */
+  height: 1.6rem; /* Setting the height of the button container */
+  border-radius: 50%; /* Creating a circular shape */
+}
+
+/* Split Button Styles */
+.splitButton {
+  background: none; /* Removing the background color */
+  border: none; /* Removing the border */
+}
+
+/* Controls Styles */
+.controls {
+  display: flex; /* Displaying the controls as a flex container */
+  align-items: center; /* Centering the controls vertically */
+}
+
+/* Split Button Styles */
+.splitButton {
+  font-size: 0.8rem; /* Setting the font size of the split button */
+  font-weight: bold; /* Adding font weight for emphasis */
+  display: grid; /* Displaying the split button as a grid container */
+  place-items: center; /* Centering the split button items */
+}
+
+/* Button Text Styles */
+.buttonText {
+  color: #353959 !important; /* Setting the text color of the button text */
+}
+
+/* Split Amount Styles */
+.splitAmount {
+  font-size: 1.6rem; /* Setting the font size of the split amount */
+  margin: 0.8rem; /* Adding margin for spacing */
+}
+
+/* Bottom Styles */
+#bottom {
+  display: flex; /* Displaying the bottom section as a flex container */
+  justify-content: space-between; /* Spacing out the elements */
+}
+
+/* Total Container Styles */
+.totalContainer {
+  display: flex; /* Displaying the total container as a flex container */
+  flex-direction: column; /* Setting the flex direction to column */
+  align-items: flex-end; /* Aligning the items to the right */
+}
+
+/* Total Styles */
+.total {
+  font-size: 2rem; /* Setting the font size of the total */
+}
+
+/* Footer Styles */
+footer {
+  text-align: center; /* Center-aligning the content within the footer */
+  margin-top: 2rem; /* Adding top margin for spacing */
+}
+
+footer p {
+  font-size: 0.8rem; /* Adjusting the font size of the footer text */
+}
+
+footer a {
+  color: #8990ec; /* Setting the text color of the linked name */
+  text-decoration: none; /* Removing the default underline for the link */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Adding underline on hover for the link */
+}
