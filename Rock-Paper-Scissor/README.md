@@ -1,6 +1,6 @@
 # Rock Paper Scissor
 
-This is a simple Rock Paper Scissor game implemented in HTML, CSS, and JavaScript. It allows the user to play against the computer and see the results of each round.
+This is a simple Rock Paper Scissor game implemented in HTML, CSS, and JavaScript. It allows the user to play against the computer and see the results of each round. LIVE DEMO: https://rock-paper-scissor.rafaykhattak.repl.co
 
 ![Screenshot (41)](https://github.com/RafayKhattak/web-dev-practice/assets/90026724/3ce79297-ba13-4caa-ba8a-26d462650918)
 
