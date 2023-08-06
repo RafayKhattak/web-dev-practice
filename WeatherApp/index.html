@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Set the title of the web page -->
+    <title>Weather App</title>
+
+    <!-- Include Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <!-- Include custom CSS file for additional styling -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- Include JavaScript file for functionality -->
+    <script src="script.js"></script>
+    <link rel="icon"
+    href="https://i.pinimg.com/originals/06/c4/f7/06c4f70ec5931e2342e703e8a3f0a253.png"
+    type="image/x-icon" />
+</head>
+
+<body class="text-center">
+
+    <main>
+        <!-- Main header banner -->
+        <h1 class="banner p-3">Weather App</h1>
+        <div class="form-group">
+            <!-- Input field for city search -->
+            <input id="city-input" class="form-control form-control-lg" type="text" placeholder="Search city" />
+        </div>
+        <!-- Search button -->
+        <button type="button" onclick="searchCity()" class="btn btn-lg btn-dark">
+            Search
+        </button>
+        <div id="weather-output" class="mt-3">
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <!-- Display the city name -->
+                        <h4 id="city-name" class="my-0 font-weight-normal">----</h4>
+                    </div>
+                    <div class="card-body">
+                        <!-- Display weather type -->
+                        <h1 id="weather-type" class="card-title">----</h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <!-- Display temperature information -->
+                            <li>Temp: <span id="temp">--</span>°</li>
+                            <li>Min Temp: <span id="min-temp">--</span>°</li>
+                            <li>Max Temp: <span id="max-temp">--</span>°</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Add the creator's name at the bottom -->
+    <footer>
+        <p>
+            Created by
+            <a href="https://www.linkedin.com/in/rafaykhattak/" target="_blank">Rafay Khattak</a>
+        </p>
+    </footer>
+</body>
+
+</html>
