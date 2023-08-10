@@ -1,0 +1,83 @@
+/* General styles */
+body {
+  background-color: #589ed9;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Container styles */
+#container {
+  width: 300px;
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+}
+
+/* Header styles */
+#header .logo .fa-weibo {
+  font-size: 65px;
+  color: white;
+}
+
+#header h1 {
+  color: white;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+/* Login form styles */
+#loginform .containerfields {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px; /* Add some padding for better visual separation */
+}
+
+#loginform .containerfields input {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  padding: 18px 0px; /* Uniform padding for top and bottom */
+  text-indent: 20px;
+  border-radius: 10px;
+}
+
+#loginform .containerfields input[type="password"] {
+  /* Adjusted border styles for password input */
+  border-top: 1px solid #ccc;
+  border-radius: 0px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+#loginform input[type="submit"] {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #2186D4;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+  padding: 14px 0px;
+  border-radius: 6px;
+  cursor: pointer; /* Added cursor style for better feedback */
+}
+
+#loginform input[type="submit"]:hover {
+  background-color: #094d81;
+}
+
+/* Footer styles */
+#footer p {
+  color: white;
+  font-size: 19px;
+}
+
+#footer p a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
