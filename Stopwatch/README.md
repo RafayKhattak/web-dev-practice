@@ -16,7 +16,7 @@ To run the stopwatch locally, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/stopwatch.git
+git clone https://github.com/your-username/web-dev-practice.git
 ```
 2. Navigate to the project directory:
 ```
