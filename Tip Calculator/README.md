@@ -26,7 +26,7 @@ To get a local copy of the Tip Calculator project up and running, follow these s
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/tip-calculator.git
+git clone https://github.com/your-username/web-dev-practice.git
 ```
 2. Navigate to the project directory:
 ```
