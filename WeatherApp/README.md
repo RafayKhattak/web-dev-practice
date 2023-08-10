@@ -15,3 +15,11 @@ A simple web application that allows users to search for weather information of 
 - HTML
 - CSS (Bootstrap)
 - JavaScript
+
+## Installation
+
+1. Clone the repository:
+```
+git clone https://github.com/your-username/WeatherApp.git
+```
+2. Open the index.html file in your web browser.
