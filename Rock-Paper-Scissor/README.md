@@ -15,6 +15,6 @@ This is a simple Rock Paper Scissor game implemented in HTML, CSS, and JavaScrip
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/rock-paper-scissor.git
+git clone https://github.com/your-username/web-dev-practice.git
 ```
 2. Open the index.html file in your web browser.
